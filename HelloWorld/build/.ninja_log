@@ -1,0 +1,9 @@
+# ninja log v6
+3	924	7590477799391148	helloWorld_autogen/timestamp	fc03e73f7ae459a0
+3	924	7590477799391148	helloWorld_autogen/mocs_compilation.cpp	fc03e73f7ae459a0
+3	924	7590477799391148	D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/helloWorld_autogen/timestamp	fc03e73f7ae459a0
+3	924	7590477799391148	D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/helloWorld_autogen/mocs_compilation.cpp	fc03e73f7ae459a0
+950	3214	7590477801348906	CMakeFiles/helloWorld.dir/src/main.cpp.obj	e00ca951c9094c20
+929	3264	7590477801105626	CMakeFiles/helloWorld.dir/helloWorld_autogen/mocs_compilation.cpp.obj	d0ae2a6c60e0e2d7
+939	3279	7590477801191381	CMakeFiles/helloWorld.dir/src/helloWorld.cpp.obj	e7946f19f1d712d9
+3279	3513	7590477824634430	helloWorld.exe	b47c3ff407eff78a

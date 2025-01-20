@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build",
+  "command": "D:\\CODE\\environments\\QtCpp\\QtDownload\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/helloWorld_autogen/include -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtWidgets -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtCore -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/mkspecs/win32-g++ -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtGui -g -std=gnu++17 -o CMakeFiles\\helloWorld.dir\\helloWorld_autogen\\mocs_compilation.cpp.obj -c D:\\CODE\\QtApps_Cpp\\BasicQtExamples\\HelloWorld\\build\\helloWorld_autogen\\mocs_compilation.cpp",
+  "file": "D:\\CODE\\QtApps_Cpp\\BasicQtExamples\\HelloWorld\\build\\helloWorld_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\helloWorld.dir\\helloWorld_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build",
+  "command": "D:\\CODE\\environments\\QtCpp\\QtDownload\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/helloWorld_autogen/include -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtWidgets -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtCore -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/mkspecs/win32-g++ -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtGui -g -std=gnu++17 -o CMakeFiles\\helloWorld.dir\\src\\helloWorld.cpp.obj -c D:\\CODE\\QtApps_Cpp\\BasicQtExamples\\HelloWorld\\src\\helloWorld.cpp",
+  "file": "D:\\CODE\\QtApps_Cpp\\BasicQtExamples\\HelloWorld\\src\\helloWorld.cpp",
+  "output": "CMakeFiles\\helloWorld.dir\\src\\helloWorld.cpp.obj"
+},
+{
+  "directory": "D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build",
+  "command": "D:\\CODE\\environments\\QtCpp\\QtDownload\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld -ID:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/helloWorld_autogen/include -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtWidgets -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtCore -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/mkspecs/win32-g++ -isystem D:/CODE/environments/QtCpp/QtDownload/6.8.1/mingw_64/include/QtGui -g -std=gnu++17 -o CMakeFiles\\helloWorld.dir\\src\\main.cpp.obj -c D:\\CODE\\QtApps_Cpp\\BasicQtExamples\\HelloWorld\\src\\main.cpp",
+  "file": "D:\\CODE\\QtApps_Cpp\\BasicQtExamples\\HelloWorld\\src\\main.cpp",
+  "output": "CMakeFiles\\helloWorld.dir\\src\\main.cpp.obj"
+}
+]

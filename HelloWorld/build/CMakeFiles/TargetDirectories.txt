@@ -1,0 +1,5 @@
+D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/CMakeFiles/helloWorld.dir
+D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/CMakeFiles/edit_cache.dir
+D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/CMakeFiles/rebuild_cache.dir
+D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/CMakeFiles/helloWorld_autogen_timestamp_deps.dir
+D:/CODE/QtApps_Cpp/BasicQtExamples/HelloWorld/build/CMakeFiles/helloWorld_autogen.dir
