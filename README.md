@@ -21,3 +21,5 @@ Record the code I left behind while learning Qt6 programming. The repository con
   该应用程序含有QWidgets中一些基本组件的使用例子，比如按钮、文本框、标签等，并且只包含组件的基本显示，并不包含信号和槽机制以及布局管理
 - `QtLayouts`文件夹  
   展示了Qt Widgets中基本的布局管理方式，包含多个按钮在水平布局、垂直布局、网格布局下的展示情况
+- `Signal-Slot`文件夹  
+  简单演示信号和槽的工作机制，应用包含一个按钮、一个标签和一个文本框，按下按钮能够改变标签的显示文本，修改文本框内容也能让标签同步显示更改后的文本内容
