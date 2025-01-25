@@ -23,3 +23,5 @@ Record the code I left behind while learning Qt6 programming. The repository con
   展示了Qt Widgets中基本的布局管理方式，包含多个按钮在水平布局、垂直布局、网格布局下的展示情况
 - `Signal-Slot`文件夹  
   简单演示信号和槽的工作机制，应用包含一个按钮、一个标签和一个文本框，按下按钮能够改变标签的显示文本，修改文本框内容也能让标签同步显示更改后的文本内容
+- `mainWindow`文件夹  
+  一个简单的应用程序主窗口示例，展示QMainWindow类的基本使用，包含菜单栏、工具栏、中心部件、Dock部件与状态栏的应用示例
