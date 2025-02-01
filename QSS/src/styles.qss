@@ -1,0 +1,22 @@
+/* 全局样式 */
+QWidget {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+}
+
+/* 按钮悬停状态 */
+QPushButton:hover {
+    background-color: #e0e0e0;
+}
+
+/* 按钮按下状态 */
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}
