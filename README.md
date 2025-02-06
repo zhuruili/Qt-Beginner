@@ -33,3 +33,5 @@ Record the code I left behind while learning Qt6 programming. The repository con
   有关于对Qt应用国际化的简单文档
 - `AnimationFramework` - **动画框架**  
   以一个Q弹的按钮演示Qt中动画模块的应用
+- `ModelView` - **模型视图**  
+  以自定义模型类、委托类的形式简单展示Qt中模型、视图、委托的用法
