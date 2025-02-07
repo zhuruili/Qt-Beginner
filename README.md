@@ -37,5 +37,5 @@ Record the code I left behind while learning Qt6 programming. The repository con
   以自定义模型类、委托类的形式简单展示Qt中模型、视图、委托的用法
 - `SqlWithQt` - **数据库**  
   简单演示Qt如何连接数据库并做基本的增删改查等操作
-- `ChartsInQt` - **图表**
+- `ChartsInQt` - **图表**  
   以折线图、柱状图、饼图和散点图为例演示了Qt中图表的应用，包含各图表的基本使用、图例显示、多种主题、显示优化等内容
