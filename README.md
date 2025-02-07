@@ -35,3 +35,5 @@ Record the code I left behind while learning Qt6 programming. The repository con
   以一个Q弹的按钮演示Qt中动画模块的应用
 - `ModelView` - **模型视图**  
   以自定义模型类、委托类的形式简单展示Qt中模型、视图、委托的用法
+- `SqlWithQt` - **数据库**  
+  简单演示Qt如何连接数据库并做基本的增删改查等操作
