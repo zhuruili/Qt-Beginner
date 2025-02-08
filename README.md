@@ -39,3 +39,11 @@ Record the code I left behind while learning Qt6 programming. The repository con
   简单演示Qt如何连接数据库并做基本的增删改查等操作
 - `ChartsInQt` - **图表**  
   以折线图、柱状图、饼图和散点图为例演示了Qt中图表的应用，包含各图表的基本使用、图例显示、多种主题、显示优化等内容
+- `MultimediaInQt` - **媒体播放器**
+  简易媒体播放器，选择一个视音频文件，展示其部分元信息，可以播放与暂停，同时配备一个进度条展示当前的播放进度
+
+## 效果展示
+
+部分文件夹中示例Demo运行效果的展示，剩余的部分运行效果较为简单就不在此赘述了
+
+**Loading...**

@@ -2,7 +2,6 @@
 
 #include <QMainWindow>
 #include <QMediaPlayer>
-#include <QProgressBar>
 #include <QLabel>
 #include <QSlider>
 #include <QPushButton>
@@ -27,7 +26,6 @@ public:
 
 private:
     QMediaPlayer *mediaPlayer;        // 媒体播放器实例
-    QProgressBar *progressBar;        // 播放进度条
     QLabel *metadataLabel;            // 显示元数据的标签
     QPushButton *playButton;          // 播放按钮
     QPushButton *pauseButton;         // 暂停按钮

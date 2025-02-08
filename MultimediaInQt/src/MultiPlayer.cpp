@@ -10,12 +10,12 @@
 MultiPlayer::MultiPlayer(QWidget *parent)
     : QMainWindow(parent),
       mediaPlayer(new QMediaPlayer(this)),
-      progressBar(new QProgressBar(this)),
       playButton(new QPushButton("Play", this)),
       pauseButton(new QPushButton("Pause", this)),
       mediaMetadata(new MediaMetadata()),
       metadataLabel(new QLabel("暂无媒体播放", this)),
-      slider(new QSlider(Qt::Horizontal, this))
+      slider(new QSlider(Qt::Horizontal, this)),
+      mediaController(new MediaController(mediaPlayer, this))
 {
     // 主窗口参数设置
     setWindowTitle("Multimedia Player");
@@ -31,7 +31,6 @@ MultiPlayer::MultiPlayer(QWidget *parent)
     FileLayout->addWidget(openButton);
     QVBoxLayout *layout = new QVBoxLayout;
     layout->addLayout(FileLayout);
-    layout->addWidget(progressBar);
     layout->addWidget(slider);
     QHBoxLayout *PlayAndPauseLayout = new QHBoxLayout;
     PlayAndPauseLayout->addWidget(playButton);
@@ -45,10 +44,10 @@ MultiPlayer::MultiPlayer(QWidget *parent)
 
     // 其他信号和槽连接
     connect(mediaMetadata, &MediaMetadata::metadataUpdated, this, [this]()
-            { metadataLabel->setText(mediaMetadata->getTitle() + " - " + mediaMetadata->getArtist()); });
-
-    // Initialize progress bar
-    progressBar->setRange(0, 100);
+            { metadataLabel->setText(mediaMetadata->getTitle() + " - " + mediaMetadata->getArtist()); }); // 更新元数据
+    connect(playButton, &QPushButton::clicked, mediaController, &MediaController::playMedia);             // 播放歌曲
+    connect(pauseButton, &QPushButton::clicked, mediaController, &MediaController::pauseMedia);           // 暂停歌曲
+    connect(mediaPlayer, &QMediaPlayer::positionChanged, this, &MultiPlayer::updateProgressBar);          // 更新进度条
 }
 
 MultiPlayer::~MultiPlayer()
@@ -61,6 +60,7 @@ void MultiPlayer::openMediaFile()
     if (!filePath.isEmpty())
     {
         mediaPlayer->setSource(QUrl::fromLocalFile(filePath));
+        mediaController->loadMedia(filePath);
         loadMetadata(filePath);
     }
 }
@@ -69,8 +69,7 @@ void MultiPlayer::updateProgressBar()
 {
     if (mediaPlayer->duration() > 0)
     {
-        progressBar->setValue(static_cast<int>((mediaPlayer->position() * 100) / mediaPlayer->duration()));
-        slider->setValue(mediaPlayer->position() / 1000); // Convert to seconds for slider
+        slider->setValue(static_cast<int>((mediaPlayer->position() * 100) / mediaPlayer->duration())); // Convert to seconds for slider
     }
 }
 
