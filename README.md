@@ -16,7 +16,7 @@ Record the code I left behind while learning Qt6 programming. The repository con
 ## 内容介绍
 
 - `HelloWorld` - **你好！Qt**  
-  这是一个空的应用程序示例，由`VSC + MinGW + CMake`环境配置下生成的模板，也是每一次开发所必须的第一个步骤
+  这是一个空的应用程序示例，由`VSC + MinGW + CMake`环境配置下生成的模板，也是每一次开发所必须的第一个步骤，文件夹下还包含一个对Cmake做简单介绍的文档
 - `QtWidgets` - **基本组件**  
   该应用程序含有QWidgets中一些基本组件的使用例子，比如按钮、文本框、标签等，并且只包含组件的基本显示，并不包含信号和槽机制以及布局管理
 - `QtLayouts` - **布局管理**  
