@@ -47,8 +47,8 @@ Record the code I left behind while learning Qt6 programming. The repository con
 部分文件夹中示例Demo运行效果的展示，剩余的部分运行效果较为简单就不在此赘述了
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="ResultsPictures\mainwindow.png" alt="mainwindow" style="width: 50%;">
-  <img src="ResultsPictures\mediaplayer.png" alt="mediaplayer" style="width: 50%;">
+  <img src="ResultsPictures\mainwindow.png" alt="mainwindow" style="width: 48%;">
+  <img src="ResultsPictures\mediaplayer.png" alt="mediaplayer" style="width: 48%;">
 </div>
 
 <br><br>
